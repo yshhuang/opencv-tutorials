@@ -6,5 +6,8 @@
 using namespace std;
 
 int main(int argc, char **argv) {
-    cout << "learn opencv" << endl;
+
+    cout << "opencv tutorials" << endl;
+
+
 }
