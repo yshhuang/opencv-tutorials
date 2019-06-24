@@ -13,7 +13,7 @@ using namespace cv;
 using namespace std;
 
 int main(int argc, char **argv) {
-    String imageName("/Volumes/develop/code-repository/c++/opencv-tutorials/source-code/c++/data/lena.png");
+    String imageName("../data/lena.png");
 
     if (argc > 1) {
         imageName = argv[1];
