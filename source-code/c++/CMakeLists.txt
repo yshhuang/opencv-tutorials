@@ -12,3 +12,9 @@ target_link_libraries(display-image ${OpenCV_LIBS})
 
 add_executable(modify-image introduction-to-opencv/modify-image.cpp)
 target_link_libraries(modify-image ${OpenCV_LIBS})
+
+add_executable(mat core-module/mat.cpp)
+target_link_libraries(mat ${OpenCV_LIBS})
+
+add_executable(scan-images core-module/scan-images.cpp)
+target_link_libraries(scan-images ${OpenCV_LIBS})
