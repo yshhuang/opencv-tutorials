@@ -18,3 +18,6 @@ target_link_libraries(mat ${OpenCV_LIBS})
 
 add_executable(scan-images core-module/scan-images.cpp)
 target_link_libraries(scan-images ${OpenCV_LIBS})
+
+add_executable(surf similarity/surf.cpp)
+target_link_libraries(surf ${OpenCV_LIBS})
